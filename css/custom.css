@@ -33,6 +33,11 @@ body {
   width: 100%;
 }
 
+.brand-sm h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
 .menu-sm{
   margin-top: 0;
   /* margin-bottom: 1rem; */
@@ -90,6 +95,40 @@ li{
   margin-bottom: 40px;
 }
 
+/* Contact */
+
+.form-sm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  justify-content: left;
+}
+
+.input-sm {
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+textarea{
+  width: 100%;
+  height: 8em;
+  padding: 12px 20px;
+  box-sizing: border-box;
+
+  font-size: 16px;
+  resize: none;
+  margin-bottom:2em ;
+}
+
+.submit-button-sm {
+  border: none;
+  background: #4aaaa5;
+  padding: 2px;
+  margin-top: 10px;
+}
+
+/* Footer */
+
 .footer-sm{
   background: grey;
   border-top: 0.5em solid #4aaaa5;
@@ -106,23 +145,21 @@ li{
   text-align: center;
   font-size: 0.7em;
   color: #000;
-  margin-top: 1em;
+  margin-top: 0.9em;
+  
 }  
 
 }
+
+
+
+
 
 /* Desktop version */
 
 
 @media screen and (min-width: 640px) {
 
-  
- html {
-  
-}    
-
-
-  
 .navbar-dsk{
   display: flex;
   flex-direction: row;
@@ -141,9 +178,11 @@ li{
   margin-left: 50px;
 }
 
+
 .brand-dsk h1 {
   font-size: 30px;
 }
+
 
 .menu-dsk{
   margin-top: 0;
@@ -152,9 +191,8 @@ li{
   display: flex;
   padding:20px;
   margin: 0 10px;
-  
-
 }
+
 
 li{
   display: inline;
@@ -203,7 +241,44 @@ li{
   width:200px;
   height: 200px;
   margin-bottom: 40px;
+  
 }
+
+
+/* Contact */
+
+.form-dsk {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  justify-content: left;
+}
+
+.input-form-dsk{
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+textarea{
+  width: 100%;
+  height: 8em;
+  padding: 12px 20px;
+  box-sizing: border-box;
+
+  font-size: 16px;
+  resize: none;
+  margin-bottom:2em ;
+}
+
+.submit-button-dsk {
+  border: none;
+  background: #4aaaa5;
+  padding: 2px;
+  margin-top: 10px;
+}
+
+/* Footer */
 
 .footer-dsk{
   background: grey;
@@ -221,8 +296,7 @@ li{
   text-align: center;
   font-size: 0.7em;
   color: #000;
-
-  margin-bottom: 1em;
+  margin-top: 0.5em;
 } 
 
 
@@ -233,87 +307,3 @@ li{
 
 
 
-
-
-/* /* .col-sm-10{
-  background-color: rgba(211, 66, 66, 0.507);
-} */
-
-
-/* .navbar {
-  padding-left: 20px;
-  padding-bottom: 0;
-}
-
-.navbar-nav {
-  margin: 0 auto;
-}
-
-
-.col-sm-10 {
-  padding-top:20px;
-  margin-bottom: 100px;
-}
-
-.col-sm-3 {
-  border:0;
-  padding:0;
-}
-
-
-.col-sm-6 {
-  margin-bottom: 50px;
-  float: left;
-} */
-
-
-/* want to manipulate the picture, border, fitting, DOESN't WORK !!! */
-/* .portrait .border .border-dark { */
-  /* justify-content: center; */
-  /* border-color: red; */
-/* } */
-
-/* .row-sm-1 { */
-  /* padding-left: 100px; */
-  /* align-content: space-between; */
-/* }  */
-
-
-
-
-/* @media only screen and (max-width: 768px) {
-  .portrait .border .border-dark  {
-    justify-content: center;
-    width:100%;
-  }
-
-  .image-container{
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
-  }
-  
-} */
-
-
-/* @media screen and (min-width:700px){
-  #mobile-nav{
-    display: none;
-  }
-
-  #desktop-nav{
-    display:unset;
-
-  }
-}
-
-@media screen and (){
-  #mobile-nav{
-    display: unset;
-  }
-
-  #desktop-nav{
-    display:none;
-} */
