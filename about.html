@@ -6,45 +6,47 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>Personal Portfolio</title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
-		<link rel="stylesheet" href="css\custom.css"/>
-	</head>
-
-	<body class="d-flex flex-column">
+		<link rel="stylesheet" href="css/custom.css"/>
+    </head>
+    
+	<body>
 		<!-- The navigation bar -->
-		<nav
-			class="navbar-small-display">
-			<!-- The green Dragos DRAGOMIR -->
-			<h1 class="brand-small-display">
-				DRAGOS DRAGOMIR
-			</h1>
-			<ul class="menu-small-display">
-				<li>
-					<a href="about.html">About</a>
-				</li>
-				<li>
-					<a href="portfolio.html">Portfolio</a>
-				</li>
-				<li>
-					<a href="contact.html">Contact</a>
-				</li>
-			</ul>
+		<nav id="mobile-nav" class="navbar-dsk navbar-sm">
+            <div class="brand-sm brand-dsk">
+			    <!-- The green Dragos DRAGOMIR -->
+			    <h1>DRAGOS DRAGOMIR</h1>
+            </div>
+            <div class="nav-li-sm  nav-li-dsk">
+			    <ul class="menu-sm menu-dsk">
+				    <li>
+					    <a href="about.html">About</a>
+				    </li>
+				    <li>
+					    <a href="portfolio.html">Portfolio</a>
+				    </li>
+				    <li>
+					    <a href="contact.html">Contact</a>
+				    </li>
+                </ul>
+            </div>
         </nav>
+
+        
 
         <br>
 
 		
-			<!-- Container-box comprising of "about me" title, image and text. This section carries bg-success for viewing purposes only. Carries a 20px padding-top in custom.css, line17    id="box-container"-->
-			<main  class="container-box">
+            <!-- Container-box comprising of "about me" title, image and text. This section carries bg-success for viewing purposes only. Carries a 20px padding-top in custom.css, line17    id="box-container"-->
+            <div class="wrapper-sm wrapper-dsk">
+			    <main  class="container-sm container-dsk">
 				<!-- The "about me title" container -->
-				<div class="about-me-text">
-					<h2>About Me</h2>
-				</div>
+				    <div class="about-sm about-dsk">
+					    <h2>About Me</h2>
+				    </div>
+				    <hr />
+				    <img class="img-sm img-dsk" src="assets/images/Dragos Dragomir_BhamBootCamp.jpg"/>
 
-				<hr />
-
-				<img class="portraitPicture" src="assets/images/Dragos Dragomir_BhamBootCamp.jpg"/>
-
-				<p>
+				    <p>
 							ULorem Ipsum is simply dummy text of the printing
 							and typesetting industry. Lorem Ipsum has been the
 							industry's standard dummy text ever since the 1500s,
@@ -91,15 +93,13 @@
 							Lorem Ipsum passages, and more recently with desktop
 							publishing software like Aldus PageMaker including
 							versions of Lorem Ipsum.
-				</p>
-            </main>
+				    </p>
+                </main>
+        </div>
 
-		<footer id="sticky-footer" class="fixed-bottom bg-dark text-white">
-			<div class="container text-center">
-				<small>Copyright &copy; Dragos Dragomir</small>
-			</div>
-		</footer>
-
+            <footer class="footer-sm  footer-dsk">
+                <p class="p-footer p-footer-dsk">Copyright &copy; DD</p>
+            </footer>
 		<script
 			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
