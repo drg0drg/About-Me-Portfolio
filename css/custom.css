@@ -1,0 +1,116 @@
+
+
+
+html,
+body {
+  height: 100%;
+  margin:0;
+  padding: 0;
+}
+
+body {
+  background: rgb(230, 230, 230);
+}
+
+
+.navbar-small-display{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brand-small-display{
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  padding: 15px;
+}
+
+.menu-small-display{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  list-style: none;
+  display: flex;
+  padding:0;
+  
+}
+
+
+
+.container-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:teal;
+}
+
+
+.portraitPicture{
+  width:200px;
+  height: 200px;
+}
+
+
+
+
+/* /* .col-sm-10{
+  background-color: rgba(211, 66, 66, 0.507);
+} */
+
+
+/* .navbar {
+  padding-left: 20px;
+  padding-bottom: 0;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+
+.col-sm-10 {
+  padding-top:20px;
+  margin-bottom: 100px;
+}
+
+.col-sm-3 {
+  border:0;
+  padding:0;
+}
+
+
+.col-sm-6 {
+  margin-bottom: 50px;
+  float: left;
+} */
+
+
+/* want to manipulate the picture, border, fitting, DOESN't WORK !!! */
+/* .portrait .border .border-dark { */
+  /* justify-content: center; */
+  /* border-color: red; */
+/* } */
+
+/* .row-sm-1 { */
+  /* padding-left: 100px; */
+  /* align-content: space-between; */
+/* }  */
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .portrait .border .border-dark  {
+    justify-content: center;
+    width:100%;
+  }
+
+  .image-container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  
+}
