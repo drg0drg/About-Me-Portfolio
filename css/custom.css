@@ -90,8 +90,8 @@ About
   }
 
   .img-sm {
-    width: 200px;
-    height: 200px;
+    /* width: 200px;
+    height: 200px; */
     margin-bottom: 40px;
   }
 
@@ -107,12 +107,22 @@ Portfolio
     padding-top: 10px;
   }
 
-  .img-sm {
-    /* height:230px;
-  width: 230px; */
+  .project-sm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(166, 169, 171);
+  }
+
+  .project-title-sm {
+    margin-top: 0.5rem;
+    border-top: 1px solid rgb(166, 169, 171);
+    border-bottom: 1px solid rgb(166, 169, 171);  
+  }
+
+  .project-img-sm {
     display: block;
-    height: 100%;
-    width: 100%;
+    width: 80%;
     margin: 20px;
   }
 
@@ -269,15 +279,31 @@ Portfolio
 
   .portfolio-dsk {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
     justify-content: center;
     padding-top: 50px;
   }
 
-  .img-dsk {
+  .project-dsk {
     display: flex;
-    height: 35%;
-    width: 35%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    border: 1px solid rgb(166, 169, 171);
+  }
+
+  .project-title-dsk {
+    margin-top: 0.5rem;
+    border-top: 1px solid rgb(166, 169, 171);
+    border-bottom: 1px solid rgb(166, 169, 171);  
+  }
+
+
+
+  .project-img-dsk {
+    display: flex;
+    height: 200px;
     margin: 20px;
   }
 
