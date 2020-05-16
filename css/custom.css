@@ -1,364 +1,433 @@
 h1 {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
 li {
-  border-top: 1px solid rgb(166, 169, 171);
-  border-bottom: 1px solid rgb(166, 169, 171);
+	border-top: 1px solid rgb(166, 169, 171);
+	border-bottom: 1px solid rgb(166, 169, 171);
 }
 
 /* --------MOBILE RESPONSIVE --------- */
 
 @media screen and (max-width: 640px) {
-  * {
-    margin: 0;
-    padding: 0;
-  }
+	* {
+		margin: 0;
+		padding: 0;
+	}
 
-  body {
-    width: 100%;
-    font-family: "Ubuntu", sans-serif;
-  }
+	body {
+		max-width: 100%;
+		font-family: "Ubuntu", sans-serif;
+	}
 
-  /* ---------------------------
+	/* ---------------------------
 About
 --------------------------- */
 
-  .navbar-sm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-bottom: 1px solid rgb(166, 169, 171);
-    width: 100%;
-  }
+	.navbar-sm {
+		position: relative;
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-bottom: 1px solid rgb(166, 169, 171);
+	}
 
-  .brand-sm {
-    display: flex;
-    justify-content: center;
-    background: #4aaaa5;
-    padding: 15px;
-    width: 100%;
-  }
+	.brand-sm {
+		display: flex;
+		justify-content: center;
+		background: rgb(74, 170, 165);
+		padding: 15px;
+		width: 100%;
+	}
 
-  .brand-sm h1 {
-    font-size: 30px;
-    font-weight: 700;
-  }
+	.brand-sm h1 {
+		font-size: 30px;
+		font-weight: 700;
+	}
 
-  .menu-sm {
-    margin-top: 0;
-    list-style: none;
-    display: flex;
-    padding: 20px;
-    margin: 0 10px;
-  }
+	.menu-sm {
+		list-style: none;
+		display: flex;
+		padding: 20px;
+		margin: 0 10px;
+	}
 
-  li {
-    display: inline;
-    margin: 0 10px;
-    font-size: 20px;
-    color: black;
-  }
+	li {
+		display: inline;
+		margin: 0 10px;
+		font-size: 20px;
+		color: black;
+	}
 
-  .menu-sm a {
-    color: #000;
-  }
+	.menu-sm a {
+		color: #000;
+	}
 
-  .about-sm {
-    border-bottom: 1px solid #000;
-    width: 80%;
-    text-align: center;
-    color: #4aaaa5;
-  }
+	.about-sm {
+		border-bottom: 1px solid rgb(166, 169, 171);
+		width: 80%;
+		text-align: center;
+		color: #4aaaa5;
+	}
 
-  .wrapper-sm {
-    display: flex;
-    justify-content: center;
-  }
+	.wrapper-sm {
+		display: flex;
+		justify-content: center;
+		max-width: 100%;
+	}
 
-  .container-sm {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #fff;
-    padding: 30px;
-    margin-bottom: 100px;
-    text-align: justify;
-    border: 1px solid grey;
-  }
+	.container-sm {
+		max-width: 95%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background: #fff;
+		padding: 30px;
+		margin-bottom: 100px;
+		text-align: justify;
+		border: 1px solid rgb(166, 169, 171);
+	}
 
-  .img-sm {
-    /* width: 200px;
-    height: 200px; */
-    margin-bottom: 40px;
-  }
+	.img-sm {
+		margin-bottom: 40px;
+	}
 
-  /* ---------------------------
+	/* ---------------------------
 Portfolio
 --------------------------- */
 
-  .portfolio-sm {
-    /* object-fit: fill; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 10px;
-  }
+	.portfolio-sm {
+		/* object-fit: fill; */
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 10px;
+	}
 
-  .project-sm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid rgb(166, 169, 171);
-  }
+	.project-sm {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 1.5rem;
+		border-left: 1px solid rgb(166, 169, 171);
+		border-right: 1px solid rgb(166, 169, 171);
+		margin-bottom: 2rem;
+	}
 
-  .project-title-sm {
-    margin-top: 0.5rem;
-    border-top: 1px solid rgb(166, 169, 171);
-    border-bottom: 1px solid rgb(166, 169, 171);  
-  }
+	.project-title-sm {
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+		font-size: 1.1rem;
+		border-top: 1px solid rgb(166, 169, 171);
+		border-bottom: 1px solid rgb(166, 169, 171);
+	}
 
-  .project-img-sm {
-    display: block;
-    width: 80%;
-    margin: 20px;
-  }
+	.project-text-sm {
+		width: 80%;
+		color: black;
+		font-size: 12px;
+		text-align: center;
+	}
 
-  /* ---------------------------
+	.fa-github {
+		margin-bottom: 1rem;
+		margin-right: 0.5rem;
+		font-size: 2rem;
+		color: rgb(74, 170, 165);
+	}
+	.fa-linkedin {
+		color: #4aaaa5;
+	}
+	.fa-file-pdf {
+		color: #4aaaa5;
+		font-size: 1.7rem;
+		margin-left: 0.6rem;
+	}
+
+	.project-img-sm {
+		display: block;
+		width: 80%;
+		height: 15vh;
+		margin: 0 auto;
+	}
+
+	/* ---------------------------
 Contact
 --------------------------- */
 
-  .form-sm {
-    display: flex;
-    flex-direction: column;
-    margin-top: 60px;
-    justify-content: left;
-  }
+	.form-sm {
+		display: flex;
+		flex-direction: column;
+		margin-top: 60px;
+		justify-content: left;
+	}
 
-  .input-sm {
-    padding: 3px;
-    margin-bottom: 10px;
-  }
+	.input-sm {
+		padding: 3px;
+		margin-bottom: 10px;
+	}
 
-  textarea {
-    width: 100%;
-    height: 8em;
-    padding: 12px 20px;
-    box-sizing: border-box;
+	textarea {
+		width: 100%;
+		height: 8em;
+		padding: 12px 20px;
+		box-sizing: border-box;
 
-    font-size: 16px;
-    resize: none;
-    margin-bottom: 2em;
-  }
+		font-size: 16px;
+		resize: none;
+		margin-bottom: 2em;
+	}
 
-  .submit-button-sm {
-    border: none;
-    background: #4aaaa5;
-    padding: 2px;
-    margin-top: 10px;
-  }
+	.submit-button-sm {
+		border: none;
+		background: #4aaaa5;
+		padding: 5px;
+		margin-top: 10px;
+	}
 
-  /* Footer */
+	/* Footer */
 
-  .footer-sm {
-    background: grey;
-    border-top: 0.5em solid #4aaaa5;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 5%;
-  }
+	.footer-sm {
+		background: grey;
+		border-top: 0.5em solid #4aaaa5;
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		height: 5%;
+	}
 
-  .p-footer {
-    font-family: "Ubuntu", sans-serif;
-    text-align: center;
-    font-size: 0.7em;
-    color: #000;
-    margin-top: 0.9em;
-  }
+	.p-footer {
+		font-family: "Ubuntu", sans-serif;
+		text-align: center;
+		font-size: 0.7em;
+		color: #000;
+		margin-top: 0.9em;
+	}
 }
 
 /* -------- DESKTOP RESPONSIVE ----------- */
 
 @media screen and (min-width: 640px) {
-  * {
-    margin: 0;
-    padding: 0;
-  }
+	* {
+		margin: 0;
+		padding: 0;
+	}
 
-  body {
-    width: 100%;
-    font-family: "Ubuntu", sans-serif;
-  }
+	body {
+		width: 100%;
+		font-family: "Ubuntu", sans-serif;
+	}
 
-  /* ---------------------------
+	/* ---------------------------
 About Me
 --------------------------- */
 
-  .navbar-dsk {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid rgb(166, 169, 171);
-    width: 100%;
-  }
+	.navbar-dsk {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		border-bottom: 1px solid rgb(166, 169, 171);
+		width: 100%;
+	}
 
-  .brand-dsk {
-    display: flex;
-    justify-content: center;
-    background: #4aaaa5;
-    padding: 15px;
-    width: 30%;
-    margin-left: 50px;
-  }
+	.brand-dsk {
+		display: flex;
+		justify-content: center;
+		background: #4aaaa5;
+		padding: 15px;
+		width: 30%;
+		margin-left: 50px;
+	}
 
-  .brand-dsk h1 {
-    font-size: 30px;
-  }
+	.brand-dsk h1 {
+		font-size: 30px;
+	}
 
-  .menu-dsk {
-    margin-top: 0;
-    list-style: none;
-    display: flex;
-    padding: 20px;
-    margin: 0 10px;
-  }
+	.menu-dsk {
+		margin-top: 0;
+		list-style: none;
+		display: flex;
+		padding: 20px;
+		margin-left: 10px;
+		margin-right: 20px;
+	}
 
-  li {
-    display: inline;
-    margin: 0 10px;
-    font-size: 20px;
-    color: black;
-  }
+	li {
+		display: inline;
+		margin: 0 10px;
+		font-size: 20px;
+		color: black;
+	}
 
-  .menu-dsk a {
-    color: #000;
-  }
-  .menu-dsk a:hover {
-    color: #4aaaa5;
-    text-decoration: none;
-  }
+	.menu-dsk a {
+		color: #000;
+	}
+	.menu-dsk a:hover {
+		color: #4aaaa5;
+		text-decoration: none;
+	}
 
-  .about-dsk {
-    border-bottom: 1px solid #000;
-    width: 100%;
-    text-align: left;
-    color: #4aaaa5;
-  }
+	.about-dsk {
+		border-bottom: 1px solid #000;
+		width: 100%;
+		text-align: center;
+		color: #4aaaa5;
+	}
 
-  .wrapper-dsk {
-    height: 100%;
-  }
+	.wrapper-dsk {
+		height: 100%;
+	}
 
-  .container-dsk {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #fff;
-    padding: 30px;
-    margin-bottom: 100px;
-    margin-left: 50px;
-    text-align: justify;
-    border: 1px solid grey;
-  }
+	.container-dsk {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 0 auto;
+		background: #fff;
+		padding: 30px;
+		margin-bottom: 100px;
 
-  .img-dsk {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 40px;
-  }
+		text-align: justify;
+		border: 1px solid grey;
+	}
 
-  /* ---------------------------
+	.img-dsk {
+		width: 200px;
+		height: 200px;
+		margin-bottom: 40px;
+	}
+
+	.fa-github {
+		margin-bottom: 1rem;
+		margin-right: 0.5rem;
+		font-size: 2rem;
+		color: #4aaaa5;
+	}
+	.fa-github:hover,
+	.fa-linkedin:hover,
+	.fa-file-pdf:hover {
+		color: #007c76;
+	}
+
+	.fa-linkedin {
+		color: #4aaaa5;
+	}
+
+	.fa-file-pdf {
+		color: #4aaaa5;
+		font-size: 1.8rem;
+		margin-left: 0.6rem;
+	}
+
+	/* ---------------------------
 Portfolio
 --------------------------- */
 
-  .portfolio-dsk {
-    display: flex;
-    flex-direction: column;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-    padding-top: 50px;
-  }
+	.portfolio-dsk {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-top: 50px;
+	}
 
-  .project-dsk {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 2rem;
-    border: 1px solid rgb(166, 169, 171);
-  }
+	.project-dsk {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 4rem;
+		padding: 1.5rem;
+		width: 70%;
+		border-left: 1px solid rgb(166, 169, 171);
+		border-right: 1px solid rgb(166, 169, 171);
+	}
 
-  .project-title-dsk {
-    margin-top: 0.5rem;
-    border-top: 1px solid rgb(166, 169, 171);
-    border-bottom: 1px solid rgb(166, 169, 171);  
-  }
+	.project-title-dsk {
+		margin-top: 0.5rem;
+		border-top: 1px solid rgb(166, 169, 171);
+		border-bottom: 1px solid rgb(166, 169, 171);
+	}
 
+	.project-text-dsk {
+		width: 80%;
+		color: #000;
+		/* color: rgb(74, 170, 165); */
+		font-size: 18px;
 
+		text-align: center;
+	}
 
-  .project-img-dsk {
-    display: flex;
-    height: 200px;
-    margin: 20px;
-  }
+	.project-img-dsk {
+		display: flex;
+		width: 50%;
+		margin: 0 auto;
+	}
 
-  /* ---------------------------
+	/* ---------------------------
 Contact
 --------------------------- */
 
-  .form-dsk {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 60px;
-    justify-content: left;
-  }
+	.form-dsk {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin-top: 60px;
+		justify-content: left;
+	}
 
-  .input-form-dsk {
-    padding: 5px;
-    margin-bottom: 20px;
-  }
+	.input-form-dsk {
+		padding: 5px;
+		margin-bottom: 20px;
+	}
 
-  textarea {
-    width: 100%;
-    height: 8em;
-    padding: 12px 20px;
-    box-sizing: border-box;
+	textarea {
+		width: 100%;
+		height: 8em;
+		padding: 12px 20px;
+		box-sizing: border-box;
 
-    font-size: 16px;
-    resize: none;
-    margin-bottom: 2em;
-  }
+		font-size: 16px;
+		resize: none;
+		margin-bottom: 2em;
+	}
 
-  .submit-button-dsk {
-    border: none;
-    background: #4aaaa5;
-    padding: 2px;
-    margin-top: 10px;
-  }
+	.submit-button-dsk {
+		border: none;
+		background: #4aaaa5;
+		padding: 10px;
+		margin-top: 10px;
+	}
 
-  /* Footer */
+	.submit-button-dsk:hover {
+		background: #007c76;
+	}
 
-  .footer-dsk {
-    background: grey;
-    border-top: 0.5em solid #4aaaa5;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 5%;
-  }
+	/* Footer */
 
-  .p-footer-dsk {
-    font-family: "Ubuntu", sans-serif;
-    text-align: center;
-    font-size: 0.7em;
-    color: #000;
-    margin-top: 0.5em;
-  }
+	.footer-dsk {
+		background: grey;
+		border-top: 0.5em solid #4aaaa5;
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		height: 5%;
+	}
+
+	.p-footer-dsk {
+		font-family: "Ubuntu", sans-serif;
+		text-align: center;
+		font-size: 0.7em;
+		color: #000;
+		margin-top: 0.5em;
+	}
 }
