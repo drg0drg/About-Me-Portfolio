@@ -68,6 +68,13 @@ About
 		color: #000;
 	}
 
+	.bio-text-sm {
+		display: flex;
+		justify-content: center;
+		width:80%;
+		text-align:justify;
+	}
+
 	.about-sm {
 		border-bottom: 1px solid rgb(166, 169, 171);
 		width: 80%;
@@ -273,6 +280,14 @@ About Me
 		color: #4aaaa5;
 		text-decoration: none;
 	}
+
+	.bio-text-dsk {
+		display: flex;
+		justify-content: center;
+		width:70%;
+		text-align:justify;
+	}
+
 
 	.about-dsk {
 		border-bottom: 1px solid #000;
