@@ -156,6 +156,7 @@ Portfolio
 		margin-left: 0.6rem;
 	}
 
+
 	.project-img-sm {
 		display: block;
 		width: 80%;
@@ -380,6 +381,55 @@ Portfolio
 
 		text-align: center;
 	}
+
+	.img-wrapper {
+		position: relative;
+		width: 80%;
+		height: 15vh;
+	}
+
+	.img-description-layer {
+		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		visibility: hidden;
+		opacity: 0;
+		transition: opacity .2s, visibility .2s;
+	}
+
+	.img-wrapper:hover .img-description{
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.img-description {
+		visibility: hidden;
+		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		font-family: "Ubuntu", sans-serif;
+		font-size: 20px;
+		font-weight: 500;
+		color: #4aaaa5;
+		text-shadow: 1px 1px white;
+		transition: .2s;
+		transform: translateY(1em);
+	}
+
+	.img-wrapper:hover .img-description {
+		transform: translateY(0);
+	}
+
 
 	.project-img-dsk {
 		display: flex;
