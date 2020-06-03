@@ -399,19 +399,6 @@ Portfolio
 		height: 15vh;
 	}
 
-	/* .img-description-layer {
-		position: absolute;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		visibility: hidden;
-		opacity: 0;
-		transition: opacity .2s, visibility .2s;
-	} */
 
 	.img-wrapper:hover .img-description{
 		visibility: visible;
